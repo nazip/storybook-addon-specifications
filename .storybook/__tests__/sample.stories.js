@@ -4,7 +4,6 @@ import { specs, describe, it} from '../../src'
 import {mount} from "enzyme";
 import expect from "expect";
 
-
 const stories = storiesOf('Button', module);
 
 stories.add('Hello World', function () {
